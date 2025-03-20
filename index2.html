@@ -8,12 +8,18 @@
         ul{ 
             list-style-type: circle;
         }
+        .my{
+            background-color: #17e536;
+        }
+        .oms{
+            color: rgb(0, 191, 255);
+        }
     </style>
 </head>
 <body>
    <p><strong>Hello and Welcome to our website</strong></p>
 
-   <p>We are excited to have you here.If you would like to list your <br> assets on <strong>OMS</strong>,follow these simple steps:</p>
+   <p>We are excited to have you here.If you would like to list your <br> assets on <strong class="oms">OMS</strong>,follow these simple steps:</p>
    <ul> 
     <li><strong >Make a Payment</strong>-send <strong>k500</strong> to <strong>+265 998 87 17 20</strong>,</li>
     <li><strong>Send Asset Details</strong>-After payment,send a <strong>clear picture</strong> of <br> your asset on WhatsApp to <strong>+265 998 87 17 20</strong> along with <br> the following details:
@@ -24,12 +30,12 @@
     </ul>
     </li>
     <li>Once you complete these steps,your asset will be <br> listed on our website.</li>
-    
+    <button onclick="openWhatsApp()" class="my"> click here to chat on WhatsApp</button>
 </ul>
      <p>  If you do not see your listing within <strong>12 to 24 hours </strong> feel free to call <br> us on <strong>+265 998 8717 20</strong> for assistance.</p> 
     
-   <p>Thank you for choosing <strong>OMS</strong>! We look forward to helping <br> you connect with buyers.</p>
-   <button onclick="openWhatsApp()"> chat on WhatsApp</button>
+   <p>Thank you for choosing <strong class="oms">OMS</strong>! We look forward to helping <br> you connect with buyers.</p>
+   <button onclick="openWhatsApp()" class="my"> click here to chat on WhatsApp</button>
    <script>
     function openWhatsApp(){
         window.location.href =
