@@ -19,12 +19,9 @@
 .fh{
 color: rgb(24, 149, 232);
 text-align: center;
-    font-size:80px
+font-size: 70px;
 } 
-.fd{
-text-align: center;
 
-}
  
 .top-left-image{
     position:absolute;
@@ -33,11 +30,13 @@ text-align: center;
     width: 100px;
     height: auto;
 }
-.custom-background{
-    width: 300px;
-    height: 200px;
-    background-image: url(background\ image.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border: 2px solid black;
+.h{
+    text-align: center;
+    font-size: 40;
+}
+.logo{
+    text-align: center;
+}
+.button{
+    background-color:rgb(24, 149, 232) ;
 }
